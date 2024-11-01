@@ -1,0 +1,16 @@
+.light-mode a {
+	color: #1b1c1e;
+	text-decoration: none;
+}
+.dark-mode a {
+	text-decoration: none;
+	color: #f7f7f7;
+}
+
+@media (max-width: 768px) {
+	.pagesLink {
+		justify-content: center;
+		margin: 20px;
+		width: 100%;
+	}
+}
